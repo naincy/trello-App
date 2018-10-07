@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.010000000000000002" tests="26" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-10-07T20:39:07" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="TrelloApp" timestamp="2018-10-07T20:39:07" tests="1" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.004">
+    <testcase name="TrelloApp should ADD_CARD" time="0.004" classname="should ADD_CARD">
+    </testcase>
+  </testsuite>
+  <testsuite name="EDIT_BOARD" timestamp="2018-10-07T20:39:07" tests="4" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp EDIT_BOARD should have property currentBoard" time="0.001" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp EDIT_BOARD currentBoard should have property name" time="0" classname="currentBoard should have property name">
+    </testcase>
+    <testcase name="TrelloApp EDIT_BOARD name should be &quot;New Board Name&quot;" time="0" classname="name should be &quot;New Board Name&quot;">
+    </testcase>
+    <testcase name="TrelloApp EDIT_BOARD should not change Lists" time="0" classname="should not change Lists">
+    </testcase>
+  </testsuite>
+  <testsuite name="CREATE_LIST" timestamp="2018-10-07T20:39:07" tests="4" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp CREATE_LIST should have property currentBoard" time="0.001" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp CREATE_LIST currentBoard should have property lists" time="0" classname="currentBoard should have property lists">
+    </testcase>
+    <testcase name="TrelloApp CREATE_LIST Lists count should increase by 1" time="0" classname="Lists count should increase by 1">
+    </testcase>
+    <testcase name="TrelloApp CREATE_LIST should have new list at pos 1" time="0" classname="should have new list at pos 1">
+    </testcase>
+  </testsuite>
+  <testsuite name="EDIT_LIST" timestamp="2018-10-07T20:39:07" tests="4" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp EDIT_LIST should have property currentBoard" time="0.001" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp EDIT_LIST currentBoard should have property lists" time="0" classname="currentBoard should have property lists">
+    </testcase>
+    <testcase name="TrelloApp EDIT_LIST lists should have a list with id 12 " time="0" classname="lists should have a list with id 12 ">
+    </testcase>
+    <testcase name="TrelloApp EDIT_LIST name of list with id 12 should be &quot;New Name&quot;" time="0" classname="name of list with id 12 should be &quot;New Name&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="MOVE_LIST" timestamp="2018-10-07T20:39:07" tests="3" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp MOVE_LIST should have property currentBoard" time="0" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp MOVE_LIST currentBoard should have property lists" time="0" classname="currentBoard should have property lists">
+    </testcase>
+    <testcase name="TrelloApp MOVE_LIST list item position should be as expected list" time="0.001" classname="list item position should be as expected list">
+    </testcase>
+  </testsuite>
+  <testsuite name="EDIT_CARD" timestamp="2018-10-07T20:39:07" tests="5" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp EDIT_CARD should have property currentBoard" time="0" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp EDIT_CARD currentBoard should have property lists" time="0" classname="currentBoard should have property lists">
+    </testcase>
+    <testcase name="TrelloApp EDIT_CARD lists should have a list with id 111 " time="0" classname="lists should have a list with id 111 ">
+    </testcase>
+    <testcase name="TrelloApp EDIT_CARD list with id 111 should have card with ID abc" time="0" classname="list with id 111 should have card with ID abc">
+    </testcase>
+    <testcase name="TrelloApp EDIT_CARD card with ID abc should have name &quot;New Text&quot;" time="0.001" classname="card with ID abc should have name &quot;New Text&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="MOVE_CARD" timestamp="2018-10-07T20:39:07" tests="5" file="/Users/naincy/TestProject/trello-App/src/TrelloApp/TrelloApp.test.js" failures="0" time="0.001">
+    <testcase name="TrelloApp MOVE_CARD should have property currentBoard" time="0" classname="should have property currentBoard">
+    </testcase>
+    <testcase name="TrelloApp MOVE_CARD currentBoard should have property lists" time="0" classname="currentBoard should have property lists">
+    </testcase>
+    <testcase name="TrelloApp MOVE_CARD lists should have a list with id 111 &amp; 112 " time="0" classname="lists should have a list with id 111 &amp; 112 ">
+    </testcase>
+    <testcase name="TrelloApp MOVE_CARD list with id 112 should have card with ID abc" time="0.001" classname="list with id 112 should have card with ID abc">
+    </testcase>
+    <testcase name="TrelloApp MOVE_CARD list with id 111 should not have card with ID abc" time="0" classname="list with id 111 should not have card with ID abc">
+    </testcase>
+  </testsuite>
+</testsuites>
