@@ -1,0 +1,62 @@
+
+  TrelloApp
+    [32m  ✓[0m[90m should ADD_CARD: [0m[90m5ms[0m
+
+  Suite duration: 0.009 s, Tests: 1
+
+  TrelloApp EDIT_BOARD
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property name: [0m[90m0ms[0m
+    [32m  ✓[0m[90m name should be "New Board Name": [0m[90m0ms[0m
+    [32m  ✓[0m[90m should not change Lists: [0m[90m0ms[0m
+
+  Suite duration: 0.002 s, Tests: 4
+
+  TrelloApp CREATE_LIST
+[ { id: '111', name: 'List Name', cards: [ [Object], [Object] ] },
+  { id: '112', name: 'Some List Name', cards: [] } ]
+[ { id: '111', name: 'List Name', cards: [ [Object], [Object] ] },
+  { id: '444', name: 'new list', cards: [] },
+  { id: '112', name: 'Some List Name', cards: [] } ]
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property lists: [0m[90m0ms[0m
+    [32m  ✓[0m[90m Lists count should increase by 1: [0m[90m0ms[0m
+    [32m  ✓[0m[90m should have new list at pos 1: [0m[90m1ms[0m
+
+  Suite duration: 0.004 s, Tests: 4
+
+  TrelloApp EDIT_LIST
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property lists: [0m[90m0ms[0m
+    [32m  ✓[0m[90m lists should have a list with id 12 : [0m[90m0ms[0m
+    [32m  ✓[0m[90m name of list with id 12 should be "New Name": [0m[90m0ms[0m
+
+  Suite duration: 0.001 s, Tests: 4
+
+  TrelloApp MOVE_LIST
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property lists: [0m[90m0ms[0m
+    [32m  ✓[0m[90m list item position should be as expected list: [0m[90m1ms[0m
+
+  Suite duration: 0.003 s, Tests: 3
+
+  TrelloApp EDIT_CARD
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property lists: [0m[90m0ms[0m
+    [32m  ✓[0m[90m lists should have a list with id 111 : [0m[90m0ms[0m
+    [32m  ✓[0m[90m list with id 111 should have card with ID abc: [0m[90m0ms[0m
+    [32m  ✓[0m[90m card with ID abc should have name "New Text": [0m[90m0ms[0m
+
+  Suite duration: 0.001 s, Tests: 5
+
+  TrelloApp MOVE_CARD
+    [32m  ✓[0m[90m should have property currentBoard: [0m[90m0ms[0m
+    [32m  ✓[0m[90m currentBoard should have property lists: [0m[90m0ms[0m
+    [32m  ✓[0m[90m lists should have a list with id 111 & 112 : [0m[90m1ms[0m
+    [32m  ✓[0m[90m list with id 112 should have card with ID abc: [0m[90m0ms[0m
+    [32m  ✓[0m[90m list with id 111 should not have card with ID abc: [0m[90m0ms[0m
+
+  Suite duration: 0.002 s, Tests: 5
+
+[92m [0m[32m 26 passing[0m[90m (25ms)[0m
+
