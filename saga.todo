@@ -1,0 +1,9 @@
+Saga Setup:
+  ☐ Setup Saga Middleware
+    ☐ applyMiddleware from redux
+    ☐ createSagaMiddleware from 'react-saga'
+  ☐ Setup Saga Generators
+    ☐ Register Watchers
+    ☐ Implement Services which returns a promise
+    ☐ yield call() - to invoke the async service
+    ☐ yield put() - to dispatch the next action

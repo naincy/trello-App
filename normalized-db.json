@@ -1,0 +1,54 @@
+{
+  "boards": [{
+    "id": 1,
+    "name": "Core JavaScript",
+    "lists": [12, 13, 14]
+  }],
+
+
+
+  "lists": [{
+    "id": 12,
+    "name": "Sprint Backlog",
+    "cards": [22, 23, 24]
+  }, {
+    "id": 13,
+    "name": "In Progress",
+    "cards": [32, 33, 34]
+  }, {
+    "id": 14,
+    "name": "Released",
+    "cards": [42, 43, 44]
+  }],
+
+
+
+  "cards": [{
+    "id": 22,
+    "text": "Setup Git Repository"
+  }, {
+    "id": 23,
+    "text": "Configure CI / CD with CircleCI and Heroku"
+  }, {
+    "id": 24,
+    "text": "Onboard Developers"
+  }, {
+    "id": 32,
+    "text": "Setup Git Repository"
+  }, {
+    "id": 33,
+    "text": "Configure CI / CD with CircleCI and Heroku"
+  }, {
+    "id": 34,
+    "text": "Onboard Developers"
+  }, {
+    "id": 42,
+    "text": "Setup Git Repository"
+  }, {
+    "id": 43,
+    "text": "Configure CI / CD with CircleCI and Heroku"
+  }, {
+    "id": 44,
+    "text": "Onboard Developers"
+  }]
+}

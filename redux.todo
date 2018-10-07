@@ -1,0 +1,24 @@
+JSX
+
+Stateful Components
+class App extends Component {
+  
+}
+
+Parent-Child Components
+
+React Router
+
+Redux
+ ☐ Reducers (Arrays)
+ ☐ How to write reducers
+ ☐ Reducers (State Management)
+ ☐ Testing Reducers with Mocha Chai
+ ☐ Redux - Handle State External to the ReactJS application. Access state using store.
+ ☐ Redux Saga -> Long-running / Asynchronous tasks
+ ☐ React-Redux -> Provider, connect()
+
+Types of Components
+ ☐ Stateful / Stateless -> Does the component maintain it's own internal state?
+ ☐ Smart / Dumb -> Do components make any calls to the server?
+ ☐ Design Re-usable Presentation components
